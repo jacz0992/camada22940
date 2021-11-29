@@ -4,7 +4,11 @@
     box-sizing: border-box;
     }
 
-
+.navbar {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        margin-top: -25px;
+    }
 
 /*BEM numero 1*/
 .menuPrincipal__uMenu-1{
@@ -44,6 +48,7 @@
     padding: 8px;
     border-radius: 5px;
 }
+
 
 
 .uNav {
@@ -108,9 +113,24 @@ header#top {
 }
 
 .encabezado--size {
-    height: 100px;
-    margin-left: 50px;
+     
+        height: 100px;
+        margin-left: 0px;
+        margin-top: 5px;
+    
 
+}
+
+button.navbar-toggler {
+    margin-left: -90px;
+    margin-top: -20px;
+}
+
+ul.navbar-nav.mr-auto {
+    background: #F8B025;
+    padding: 8px;
+    -webkit-box-shadow: 2px 6px 6px -2px rgb(0 0 0 / 24%);
+    
 }
 
 li.tituloMenu {
@@ -428,7 +448,7 @@ section.sectionPost {
 
 /* aqui estan los media query */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
     .steps {
         display: grid;
         justify-items: center;
@@ -498,6 +518,17 @@ section.sectionPost {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background: #ffa800;!important
     }
 
     }

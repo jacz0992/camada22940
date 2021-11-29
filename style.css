@@ -112,7 +112,13 @@ header#top {
 
 .encabezado--size {
   height: 100px;
-  margin-left: 50px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+button.navbar-toggler {
+  margin-left: -90px;
+  margin-top: -20px;
 }
 
 li.tituloMenu {

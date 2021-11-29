@@ -23,37 +23,51 @@
          <img src="images/logo-lulo-agencia (2).png" alt="logo lulo agencia digital" class="encabezado--size">
         </a>
         </div>
-    <nav class="menuPrincipal">
-        <div class="menuPrincipal__uMenu-1">
-            <ul class="nav nav__pills" id="menu" >
-                <li class="nav__pills--active">
-                    <a href="index.html" >El principio</a>
-                </li>
-                <li class="nav nav__pills">
-                    <a class="nav-link" href="lulo.html">Lulo</a>
-                </li>
-                <li class="nav nav__pills">
-                    <a class="nav-link" href="los-productos.html" >Los Productos</a>
-                    <ul >
-						<li><a href="">Desarrollo web</a></li>
-						<li><a href="">Social Media</a></li>
-						<li><a href="">Paid Media</a></li>
-						<li><a href="">SEO</a></li>
-					</ul>
-                </li>
-                <li class="nav nav__pills">
-                    <a class="nav-link" href="el-trabajo.html" >El trabajo</a>
-                </li>
-                <li class="nav nav__pills">
-                    <a class="nav-link" href="seonews.html" >SeoNews</a>
-                </li>
-                <li class="nav nav__pills">
-                    <a class="nav-link" href="los-telefonos.html" >Los Teléfonos</a>
-                </li>
-            </ul>
-          </div>
+
+<!--menu desktop-->
+<nav class="navbar navbar-expand-lg navbar-light ">
     
-    </nav>   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">El principio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lulo.html">Lulo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Los Productos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Desarrollo web</a>
+            <a class="dropdown-item" href="#">Social Media</a>
+            <a class="dropdown-item" href="#">Paid Media</a>
+            <a class="dropdown-item" href="#">SEO</a>            
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="el-trabajo.html">El trabajo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="seonews.html">SeoNews</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="los-telefonos.html">Los teléfonos</a>
+        </li>
+        
+      </ul>
+     
+    </div>
+  </nav>
+
+    
     </header>
     <!--carrousel principal-->
     <section>
@@ -71,6 +85,10 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="images/background-1slide.jpg" alt="1 slide" height="600" width="1920">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                      </div>
                   </div>
                   <div class="carousel-item">
                     <img src="images/fondo-amarillo.png" alt="2 slide" height="600" width="1920">
@@ -97,10 +115,12 @@
                     01
                 </h3>
                 <h4>
-                    titulo1
+                    HAGAMOS
+                    UN BRIEF
                 </h4>
                 <p>
-                    Lorem, ipsum dolor.
+                    Escuchamos tus
+                    requerimientos
                 </p>
            </div>
            <div class="step">
@@ -108,10 +128,12 @@
                 02
             </h3>
             <h4>
-                titulo2
+                DEFINAMOS
+                TU NECESIDAD
             </h4>
             <p>
-                Lorem, ipsum dolor.
+                ¿Leads? ¿Ventas? 
+                ¿Posicionamiento?…
             </p>
            </div>
            <div class="step">
@@ -119,10 +141,11 @@
                 03
             </h3>
             <h4>
-                titulo3
+                CONSTRUIMOS 
+                ESTRATEGIA
             </h4>
             <p>
-                Lorem, ipsum dolor.
+                Pensada en tu cliente
             </p>
             </div>
             <div class="step">
@@ -130,10 +153,12 @@
                     04
                 </h3>
                 <h4>
-                    titulo4
+                    EJECUTEMOS 
+                    LA SOLUCIÓN
                 </h4>
                 <p>
-                    Lorem, ipsum dolor.
+                    Ponemos en marcha 
+                    nuestros productos
                 </p>
            </div>
            <div class="step">
@@ -141,10 +166,11 @@
                 05
             </h3 >
             <h4>
-                titulo5
+                MONITOREO Y 
+                MEDICIÓN
             </h4>
             <p>
-                Lorem, ipsum dolor.
+                Te mostramos resultados
             </p>
             </div>       
        </div> 
@@ -157,8 +183,9 @@
                 <img class="imagenLulo" src="images/lulov2.png" alt="imagen de lulo" width="515">
             </div>
             <div class="column2 wrapper" id="columna2">
-                <h1 class="referentBox heading animatable " id="parrafo1">Titular de muestra</h1><br>
-                <p class="caption animatable" id="parrafo2">Texto de ejemplo. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+                <h1 class="referentBox heading animatable " id="parrafo1">NUESTRA ESCENCIA</h1><br>
+                <p class="caption animatable" id="parrafo2">Somos partners de nuestros clientes, trabajamos para que ellos crezcan y así, crecer con ellos, es lo que nos impulsa día a día a ser mejores.
+                    Nuestro compromiso  es con nosotros mismos y con nuestros clientes. </p>
                 <button type="button" class="btn btn-secondary btn-lg">VER MÁS</button> <!--BOTON UTILIZADO CON BOOTSTRAP-->
             </div>
         </div>
@@ -172,29 +199,29 @@
             <div class="row mb-3 justify-content-center">
             <div class="col img-hover-zoom ">
                 <img class="" src="images/h1-port-01.jpg" alt="cliente Levapan" width="300" height="300">
-                <h4 class="text-dark">titlulo work 1</h4>
+                <h4 class="text-dark">Evento Empresa</h4>
             </div>
             <div class="col img-hover-zoom">
                 <img class="" src="images/h1-port-02.jpg" alt="cliente iberonex" width="300" height="300">
-                <h4 class="text-dark">titlulo work 2</h4>
+                <h4 class="text-dark">Edificio Colfecar</h4>
             </div>
             <div class="col img-hover-zoom">
                 <img class="" src="images/h1-port-03.jpg" alt="cliente claro" width="300" height="300">
-                <h4 class="text-dark">titlulo work 3</h4>
+                <h4 class="text-dark">Formacon</h4>
             </div>
             </div>
             <div class="row mb-3">
             <div class="col img-hover-zoom">
                 <img class="" src="images/h1-port-04.jpg" alt="cliente MARS" width="300" height="300">
-                <h4 class="text-dark">titulo work 4</h4>
+                <h4 class="text-dark">International Pilot Academy</h4>
             </div>
             <div class="col img-hover-zoom">
                 <img class="" src="images/h1-port-05.jpg" alt="cliente WOm" width="300" height="300">
-                <h4 class="text-dark">titlulo work 5</h4>
+                <h4 class="text-dark">Dr Ricardo Gonzalez</h4>
             </div>
             <div class="col img-hover-zoom">
                 <img class="" src="images/h1-port-06.jpg" alt="cliente moneygram" width="300" height="300">
-                <h4 class="text-dark">titlulo work 6</h4>
+                <h4 class="text-dark">Fundacion Leucemia y Linfoma</h4>
             </div>
             </div>
         </div>
@@ -230,15 +257,15 @@
         </div>
     </section>
     <!--instagram: aqui va una conexión api a la red social, revisar https://www.powr.io/-->
-    <section>
+     <!--<section>
         <div class="">
             <h3>
                 Instagram
             </h3>
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/7DxqIoJ5wYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            -->            
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/7DxqIoJ5wYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
         </div>
-    </section>
+    </section>-->
     <!--inicio de los post-->
     <section class="section__Post">
         <div class="">
