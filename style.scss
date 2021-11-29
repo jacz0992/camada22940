@@ -4,6 +4,8 @@
     box-sizing: border-box;
     }
 
+
+
 .navbar {
         font-family: 'Poppins', sans-serif;
         font-size: 18px;
@@ -126,12 +128,7 @@ button.navbar-toggler {
     margin-top: -20px;
 }
 
-ul.navbar-nav.mr-auto {
-    background: #F8B025;
-    padding: 8px;
-    -webkit-box-shadow: 2px 6px 6px -2px rgb(0 0 0 / 24%);
-    
-}
+
 
 li.tituloMenu {
     display: inline-block;
@@ -450,10 +447,12 @@ section.sectionPost {
 
 @media only screen and (max-width: 400px) {
     .steps {
+        display: -ms-grid;
         display: grid;
         justify-items: center;
-        grid-template-columns: 100px 100px;
-        grid-gap: 45px;
+        -ms-grid-columns: 100px 100px;
+        grid-template-columns: 108px 83px;
+        grid-gap: 77px;
     }
     .slider {
         width: 375px;
@@ -528,7 +527,10 @@ section.sectionPost {
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;
-        background: #ffa800;!important
+        
+    }
+    .h4 {
+        font-size: 1.0rem;
     }
 
     }
@@ -792,3 +794,32 @@ $redes: (
     
 }
 
+
+i.fa.fa-facebook {
+    font-size: 30px;
+}
+
+i.fa.fa-instagram {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.imagenslider {
+    filter: grayscale(0.5) blur(10px);
+}
+
+img.imagenslider {
+    filter: grayscale(5.5);
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff;
+    padding: 17px;
+    border-radius: 10px;
+}
