@@ -14,6 +14,18 @@ html {
         margin-top: -25px;
     }
 
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
 /*BEM numero 1*/
 .menuPrincipal__uMenu-1{
 
@@ -268,9 +280,9 @@ td  {
     height: 250px;
 }
 /*BEM 7*/
-.piedePagina__columnas--tituloFooter {
+/*.piedePagina__columnas--tituloFooter {
     font-weight: 700;
-}
+}*/
 
 /*BEM 8*/
 .piedePagina__columnas--menuFooter {
@@ -421,9 +433,9 @@ div#columna1 {
     justify-content: space-around;
 }
 /*BEM 5*/
-.section__Post {
+/*.section__Post {
     background-color: #f0f0f0;
-}
+}*/
 
 section.sectionPost {
     margin: 50px;
@@ -447,7 +459,7 @@ section.sectionPost {
 
 /* aqui estan los media query */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .steps {
         display: -ms-grid;
         display: grid;
